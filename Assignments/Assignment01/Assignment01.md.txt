@@ -1,0 +1,47 @@
+# Assignment 01: Git, Gitea, GitHub, Git LFS, and GitHub Pages
+
+**Student:** Hira Faisal Khan
+**Registration Number:** 2024-BSE-07
+**GitHub Username:** hirafaisalkhan2007-arch
+**Date:** 10 October 2026
+
+## Objective
+
+In this assignment, I installed and ran Gitea on an Ubuntu server, created and managed a Git repository from that server, pushed it to both Gitea and GitHub, managed large files with Git LFS, and published a portfolio with GitHub Pages.
+
+## Task 1 — Install Gitea and Push a Repository from the Ubuntu Server
+
+- Installed Docker, Docker Compose, and Git on the Ubuntu server.
+- Cloned the instructor's Gitea setup repository and started Gitea + PostgreSQL with Docker Compose.
+- Configured Gitea through the browser and created the admin account.
+- Created a public Gitea repository named `Assignment01`.
+- Created a local repository on the Ubuntu server, added a README with my name and registration number, and pushed it to Gitea over HTTP.
+- Evidence: `screenshots/task1_gitea_running.png`, `screenshots/task1_gitea_push.png`, `screenshots/task1_gitea_repository.png`
+
+## Task 2 — Push the Same Repository to GitHub
+
+- Created an empty public GitHub repository named `Assignment01`.
+- Added GitHub as a second remote to the same local repository.
+- Pushed the `main` branch to GitHub using a Personal Access Token.
+- Evidence: `screenshots/task2_remotes.png`, `screenshots/task2_github_push.png`, `screenshots/task2_github_repository.png`
+
+## Task 3 — Track Three Large Files with Git LFS
+
+- Installed Git LFS on the Ubuntu server and configured tracking for `.bin` files.
+- Created three files larger than 100 MiB each and tracked them with Git LFS.
+- Committed and pushed the files to GitHub; LFS uploaded all three objects (100%, 3/3).
+- Evidence: `screenshots/task3_lfs_setup.png`, `screenshots/task3_lfs_files.png`, `screenshots/task3_lfs_push.png`
+
+## Task 4 — Create a Portfolio or CV with GitHub Pages
+
+- Created a public GitHub repository named `hirafaisalkhan2007-arch.github.io`.
+- Built a static portfolio with `index.html` and `styles.css` containing the sections: About Me, Education, Skills, Projects.
+- Enabled GitHub Pages from the `main` branch / root folder.
+- Published and verified the site at https://hirafaisalkhan2007-arch.github.io/
+- Evidence: `screenshots/task4_pages_repository.png`, `screenshots/task4_pages_deployment.png`, `screenshots/task4_portfolio_live.png`
+
+## Links
+
+- CC repository: https://github.com/hirafaisalkhan2007-arch/CC
+- Assignment01 (GitHub): https://github.com/hirafaisalkhan2007-arch/Assignment01
+- Portfolio site: https://hirafaisalkhan2007-arch.github.io/
